@@ -37,7 +37,7 @@ function Navbar() {
     <header className="header">
       <div className="header__content">
         <Link to="/" className="header__content__logo">
-          Navbar
+          Filmes
         </Link>
         <nav
           className={`${"header__content__nav"} 
@@ -49,7 +49,7 @@ function Navbar() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/profile">Produtos</Link>
+              <Link to="/profile">Galeria</Link>
             </li>
             <li>
               <Link to="/Works">Contato</Link>

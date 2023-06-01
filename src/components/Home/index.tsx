@@ -15,6 +15,13 @@ import image4 from '../../img/img5.jpg';
 import image5 from '../../img/img6.jpg';
 
 
+//import das imgens dos cards
+import img from './img-card/img1.jpg'
+import img1 from './img-card/img2.jpg'
+import img2 from './img-card/img3.jpg'
+
+
+
 function Home() {
 
   var settings = {
@@ -51,22 +58,23 @@ function Home() {
           <img src={image5} alt={'primeira imgem'} style={{ width: '100%', height: '800px' }} />
         </div>
       </Slider>
+
       <div className="cards">
         <Card css={{ w: "400px", h: "400px", mt: "35px" }}>
           <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
             <Col>
               <Text size={12} weight="bold" transform="uppercase" color="#9E9E9E">
-                Your day your way
+             
               </Text>
               <Text h3 color="white">
-                Your checklist for better sleep
+              
               </Text>
             </Col>
          
           </Card.Header>
           <Card.Body css={{ p: 0 }}>
             <Card.Image
-              src="https://nextui.org/images/card-example-5.jpeg"
+              src={img}
               objectFit="cover"
               width="100%"
               height="100%"
@@ -97,32 +105,16 @@ function Home() {
                   </Col>
                   <Col>
                     <Text color="#d1d1d1" size={12}>
-                      Titulo do filme
+                      &nbsp;Avengers Era de Ultron
                     </Text>
                     <Text color="#d1d1d1" size={12}>
-                      Informações do filme
+                      
                     </Text>
                   </Col>
                 </Row>
               </Col>
               <Col>
-                <Row justify="flex-end">
-                  <Button
-                    flat
-                    auto
-                    rounded
-                    css={{ color: "#94f9f0", bg: "#94f9f026" }}
-                  >
-                    <Text
-                      css={{ color: "inherit" }}
-                      size={12}
-                      weight="bold"
-                      transform="uppercase"
-                    >
-                      Get App
-                    </Text>
-                  </Button>
-                </Row>
+  
               </Col>
             </Row>
           </Card.Footer>
@@ -132,16 +124,16 @@ function Home() {
           <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
             <Col>
               <Text size={12} weight="bold" transform="uppercase" color="#9E9E9E">
-                Your day your way
+            
               </Text>
               <Text h3 color="white">
-                Your checklist for better sleep
+                
               </Text>
             </Col>
           </Card.Header>
           <Card.Body css={{ p: 0 }}>
             <Card.Image
-              src="https://nextui.org/images/card-example-5.jpeg"
+              src={img1}
               objectFit="cover"
               width="100%"
               height="100%"
@@ -172,32 +164,16 @@ function Home() {
                   </Col>
                   <Col>
                     <Text color="#d1d1d1" size={12}>
-                      Titulo do filme
+                      &nbsp;Gurdiões da Galaxya
                     </Text>
                     <Text color="#d1d1d1" size={12}>
-                      Informações do filme
+                      
                     </Text>
                   </Col>
                 </Row>
               </Col>
               <Col>
-                <Row justify="flex-end">
-                  <Button
-                    flat
-                    auto
-                    rounded
-                    css={{ color: "#94f9f0", bg: "#94f9f026" }}
-                  >
-                    <Text
-                      css={{ color: "inherit" }}
-                      size={12}
-                      weight="bold"
-                      transform="uppercase"
-                    >
-                      Get App
-                    </Text>
-                  </Button>
-                </Row>
+          
               </Col>
             </Row>
           </Card.Footer>
@@ -207,16 +183,16 @@ function Home() {
           <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
             <Col>
               <Text size={12} weight="bold" transform="uppercase" color="#9E9E9E">
-                Your day your way
+        
               </Text>
               <Text h3 color="white">
-                Your checklist for better sleep
+             
               </Text>
             </Col>
           </Card.Header>
           <Card.Body css={{ p: 0 }}>
             <Card.Image
-              src="https://nextui.org/images/card-example-5.jpeg"
+              src={img2}
               objectFit="cover"
               width="100%"
               height="100%"
@@ -247,32 +223,16 @@ function Home() {
                   </Col>
                   <Col>
                     <Text color="#d1d1d1" size={12}>
-                      Titulo do filme
+                      &nbsp;Avengers End Game
                     </Text>
                     <Text color="#d1d1d1" size={12}>
-                      Informações do filme
+                     
                     </Text>
                   </Col>
                 </Row>
               </Col>
               <Col>
-                <Row justify="flex-end">
-                  <Button
-                    flat
-                    auto
-                    rounded
-                    css={{ color: "#94f9f0", bg: "#94f9f026" }}
-                  >
-                    <Text
-                      css={{ color: "inherit" }}
-                      size={12}
-                      weight="bold"
-                      transform="uppercase"
-                    >
-                      Get App
-                    </Text>
-                  </Button>
-                </Row>
+             
               </Col>
             </Row>
           </Card.Footer>
